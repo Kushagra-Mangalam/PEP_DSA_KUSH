@@ -1,13 +1,17 @@
-/* unordered map me sorting nahi hoti isliye iske sare function 
-O(1) ke hote hai jyada sahi ye hota hai*/
+/* given n string , print unique string 
+in lexographical order with their frequency
+*/
+
+
+
 
 #include<iostream>
-#include<unordered_map>
+#include<map>
 
 using namespace std;
 
 int main(){
-    unordered_map<string , int>mp;
+    map<string , int>mp;
     int n;
     cin>>n;
 
